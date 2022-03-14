@@ -126,9 +126,9 @@ The convert to linked list method.
 ```
 
 
-### Spellchecker (40 points)
+### Spell Checker (40 points)
 
-To help test your `HashMap` and `LinkedList` implementation, we've provided a simple interactive spellchecker program that allows the user to type phrases (without punctuation) and it will spellcheck it. Here's some sample inputs and outputs, along with the compilation. 
+To help test your `HashMap` and `LinkedList` implementation, we've provided a simple interactive spell checker program that allows the user to type phrases (without punctuation) and it will spell check it. Here's some sample inputs and outputs, along with the compilation. 
 
 ```
 $ python spell_check.py 
@@ -196,7 +196,7 @@ A number of functions are implemented and provided for you in `boggle.py`, your 
 
 This is a recursive method that will explore outwards from a letter tile using **depth first search**. The idea is that you start a tile, like `S` and then try all neighbors (via a recursive call), outward, adding letters as you go and checking to see if you found a word. At somepoint you either search off the board or descended too far (checking a 9 letter word), and the recursion returns to explore another path. An algorithmic description is provided in a comment within `boggle.py` --- see there for more details.
 
-Once you complete, you can run the `onePlayerBoggle` program at a given random seed, like the two examples below:
+Once you complete, you can run the `one_player_boggle.py` program at a given random seed, like the two examples below:
 
 ```
 $ python one_player_boggle.py 10
